@@ -21,10 +21,6 @@
     "contact.delete": "Delete",
     "contact.clearAll": "Clear contacts",
 
-    "election.home.item.title": "Election en cours",
-    "election.home.item.name": "Name",
-    "election.home.item.description": "Description",
-    "election.home.item.go": "Go",
     "election.home.create": "Creer une nouvelle election",
 
     "election.new": {
