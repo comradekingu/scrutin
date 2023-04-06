@@ -1,5 +1,111 @@
 {
   "translation": {
-    "title": "Verifiable secret voting"
+    "app.title": "Verifiable secret voting",
+
+    "ballot.show.title": "Ballot",
+    "ballot.show.election": "Election",
+    "ballot.show.eventHash": "Event Hash",
+    "ballot.show.previousId": "Previous Id",
+    "ballot.show.voter": "Voter",
+    "ballot.show.ciphertext": "Ciphertext",
+
+    "ballot.new": {
+      "choices": "Choices",
+      "vote": "Voter",
+      "noVotingRight": "You don't have voting right"
+    },
+
+    "contact.title": "Contact",
+    "contact.item.email": "Email",
+    "contact.item.phoneNumber": "Phone number",
+    "contact.delete": "Delete",
+    "contact.clearAll": "Clear contacts",
+
+    "election.home.item.title": "Election en cours",
+    "election.home.item.name": "Name",
+    "election.home.item.description": "Description",
+    "election.home.item.go": "Go",
+    "election.home.create": "Creer une nouvelle election",
+
+    "election.new": {
+      "noPublicKey": "No public key found",
+      "name": "Nom de l'élection",
+      "description": "Description",
+      "owner": "Owner",
+      "create": "Create",
+      "choiceList": {
+        "choices": "Choix",
+        "add": "Ajouter",
+        "error.atLeastTwoChoices": "Il faut au moins 2 choix !",
+        "modal.choiceName": "Nom du choix",
+        "modal.back": "Retour",
+        "modal.add": "Ajouter"
+      }
+    },
+
+    "election.show": {
+      "choices": "Choix",
+      "status": "Status",
+      "statusInProgress": "En cours",
+      "statusFinished": "Finished",
+      "showAdvanced": "Show advanced",
+      "hideAdvanced": "Hide advanced",
+      "id": "Id/Hash",
+      "ownerPublicKey": "Owner Public Key",
+      "params": "Params",
+      "trustees": "Trustees",
+      "ballotEvents": "Ballot events",
+      "showBallots": "Show ballots",
+      "hideBallots": "Hide ballots",
+      "result": "Result",
+      "admin": "You are admin",
+      "notAdmin": "You are not admin",
+      "closeAndTally": "Close election and tally",
+      "addByEmail": {
+        "addParticipant": "Ajouter un participant",
+        "modal.title": "Invite someone by email",
+        "modal.email": "Email",
+        "modal.back": "Retour",
+        "modal.sendInvite": "Envoyer une invitation par email"
+      }
+    },
+
+    "settings": {
+      "language": "Language",
+      "internals": "Internals",
+      "identities": "Identities",
+      "trustees": "Trustees",
+      "contacts": "Contacts",
+      "transactions": "Transactions"
+    },
+
+    "trustees": {
+      "title": "Trustees",
+      "clear": "Clear"
+    },
+
+    "transactions": {
+      "title": "Transactions",
+      "clear": "Clear"
+    },
+
+    "identity.home": {
+      "title": "Identités",
+      "generate": "Generate identity",
+      "import": "Import identity",
+      "clear": "Clear identitites",
+      "modal": {
+        "privateKey": "Private key",
+        "add": "Ajouter"
+      }
+    },
+
+    "identity.show": {
+      "title": "Identity",
+      "publicKey": "Public key",
+      "secretKey": "Secret key",
+      "elections": "Elections",
+      "ballots": "Ballots"
+    }
   }
 }
