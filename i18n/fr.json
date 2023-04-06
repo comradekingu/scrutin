@@ -1,38 +1,40 @@
 {
   "translation": {
-    "app.title": "Verifiable secret voting",
+    "app.title": "Scrutin: Elections sécurisés et verifiables",
 
-    "ballot.show.title": "Ballot",
-    "ballot.show.election": "Election",
-    "ballot.show.eventHash": "Event Hash",
-    "ballot.show.previousId": "Previous Id",
-    "ballot.show.voter": "Voter",
-    "ballot.show.ciphertext": "Ciphertext",
-
-    "ballot.new": {
-      "choices": "Choices",
-      "vote": "Voter",
-      "noVotingRight": "You don't have voting right"
+    "ballot.show": {
+      "title": "Bulletin de vote",
+      "election": "Election",
+      "eventHash": "Id de l'événement",
+      "previousId": "Id de la version précédente",
+      "voter": "Voter",
+      "ciphertext": "Vote crypté"
     },
 
-    "contact.title": "Contact",
-    "contact.item.email": "Email",
-    "contact.item.phoneNumber": "Phone number",
-    "contact.delete": "Delete",
-    "contact.clearAll": "Clear contacts",
+    "ballot.new": {
+      "choices": "Choix",
+      "vote": "Voter",
+      "noVotingRight": "Vous n'avez pas le droit de voter"
+    },
 
-    "election.home.item.title": "Election en cours",
-    "election.home.item.name": "Name",
-    "election.home.item.description": "Description",
-    "election.home.item.go": "Go",
-    "election.home.create": "Creer une nouvelle election",
+    "contact": {
+      "title": "Contact",
+      "item.email": "Email",
+      "item.phoneNumber": "Phone number",
+      "delete": "Delete",
+      "clearAll": "Clear contacts"
+    },
+
+    "election.home": {
+      "create": "Creer une nouvelle election"
+    },
 
     "election.new": {
-      "noPublicKey": "No public key found",
+      "noPublicKey": "Pas de clef publique trouvée",
       "name": "Nom de l'élection",
       "description": "Description",
-      "owner": "Owner",
-      "create": "Create",
+      "owner": "Créateur",
+      "create": "Créer",
       "choiceList": {
         "choices": "Choix",
         "add": "Ajouter",
@@ -47,23 +49,23 @@
       "choices": "Choix",
       "status": "Status",
       "statusInProgress": "En cours",
-      "statusFinished": "Finished",
-      "showAdvanced": "Show advanced",
-      "hideAdvanced": "Hide advanced",
-      "id": "Id/Hash",
-      "ownerPublicKey": "Owner Public Key",
-      "params": "Params",
-      "trustees": "Trustees",
-      "ballotEvents": "Ballot events",
-      "showBallots": "Show ballots",
-      "hideBallots": "Hide ballots",
-      "result": "Result",
-      "admin": "You are admin",
-      "notAdmin": "You are not admin",
-      "closeAndTally": "Close election and tally",
+      "statusFinished": "Fini",
+      "showAdvanced": "Afficher plus",
+      "hideAdvanced": "Afficher moins",
+      "id": "Id de l'élection",
+      "ownerPublicKey": "Administrateur",
+      "params": "Paramètres",
+      "trustees": "Guardiens",
+      "ballotEvents": "Événements de vote",
+      "showBallots": "Montrer les bulletins",
+      "hideBallots": "Cacher les bulletins",
+      "result": "Resultat",
+      "admin": "Vous êtes administrateur",
+      "notAdmin": "Vous n'êtes pas administrateur",
+      "closeAndTally": "Terminer l'élection ef calculer le resultat",
       "addByEmail": {
         "addParticipant": "Ajouter un participant",
-        "modal.title": "Invite someone by email",
+        "modal.title": "Inviter quelqu'un by email",
         "modal.email": "Email",
         "modal.back": "Retour",
         "modal.sendInvite": "Envoyer une invitation par email"
@@ -71,41 +73,41 @@
     },
 
     "settings": {
-      "language": "Language",
-      "internals": "Internals",
-      "identities": "Identities",
-      "trustees": "Trustees",
+      "language": "Langue",
+      "internals": "Paramètres avancés",
+      "identities": "Identitées",
+      "trustees": "Guardiens",
       "contacts": "Contacts",
       "transactions": "Transactions"
     },
 
     "trustees": {
-      "title": "Trustees",
-      "clear": "Clear"
+      "title": "Guardiens",
+      "clear": "Effacer tout"
     },
 
     "transactions": {
-      "title": "Transactions",
-      "clear": "Clear"
+      "title": "Événement",
+      "clear": "Effacer tout"
     },
 
     "identity.home": {
       "title": "Identités",
-      "generate": "Generate identity",
-      "import": "Import identity",
-      "clear": "Clear identitites",
+      "generate": "Générer une identité",
+      "import": "Importer une identité",
+      "clear": "Effacer tout",
       "modal": {
-        "privateKey": "Private key",
+        "privateKey": "Clef secrète",
         "add": "Ajouter"
       }
     },
 
     "identity.show": {
-      "title": "Identity",
-      "publicKey": "Public key",
-      "secretKey": "Secret key",
-      "elections": "Elections",
-      "ballots": "Ballots"
+      "title": "Identités",
+      "publicKey": "Clefs publiques",
+      "secretKey": "Clefs secrètes",
+      "elections": "Élections",
+      "ballots": "Bulletins de vote"
     }
   }
 }

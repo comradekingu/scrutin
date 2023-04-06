@@ -1,13 +1,15 @@
 {
   "translation": {
-    "app.title": "Verifiable secret voting",
+    "app.title": "Scrutin: Secure, verifiable elections",
 
-    "ballot.show.title": "Ballot",
-    "ballot.show.election": "Election",
-    "ballot.show.eventHash": "Event Hash",
-    "ballot.show.previousId": "Previous Id",
-    "ballot.show.voter": "Voter",
-    "ballot.show.ciphertext": "Ciphertext",
+    "ballot.show": {
+      "title": "Ballot",
+      "election": "Election",
+      "eventHash": "Event Hash",
+      "previousId": "Previous Id",
+      "voter": "Voter",
+      "ciphertext": "Ciphertext"
+    },
 
     "ballot.new": {
       "choices": "Choices",
@@ -21,35 +23,35 @@
     "contact.delete": "Delete",
     "contact.clearAll": "Clear contacts",
 
-    "election.home.create": "Creer une nouvelle election",
+    "election.home.create": "Create a new election",
 
     "election.new": {
       "noPublicKey": "No public key found",
-      "name": "Nom de l'élection",
+      "name": "Election name",
       "description": "Description",
       "owner": "Owner",
       "create": "Create",
       "choiceList": {
-        "choices": "Choix",
-        "add": "Ajouter",
-        "error.atLeastTwoChoices": "Il faut au moins 2 choix !",
-        "modal.choiceName": "Nom du choix",
-        "modal.back": "Retour",
-        "modal.add": "Ajouter"
+        "choices": "Choices",
+        "add": "Add",
+        "error.atLeastTwoChoices": "You need at least 2 choices",
+        "modal.choiceName": "Choice name",
+        "modal.back": "Back",
+        "modal.add": "Add"
       }
     },
 
     "election.show": {
-      "choices": "Choix",
+      "choices": "Choices",
       "status": "Status",
-      "statusInProgress": "En cours",
+      "statusInProgress": "In progress",
       "statusFinished": "Finished",
-      "showAdvanced": "Show advanced",
-      "hideAdvanced": "Hide advanced",
-      "id": "Id/Hash",
+      "showAdvanced": "Show more",
+      "hideAdvanced": "Show less",
+      "id": "Election id",
       "ownerPublicKey": "Owner Public Key",
       "params": "Params",
-      "trustees": "Trustees",
+      "trustees": "Guardians",
       "ballotEvents": "Ballot events",
       "showBallots": "Show ballots",
       "hideBallots": "Hide ballots",
@@ -58,25 +60,25 @@
       "notAdmin": "You are not admin",
       "closeAndTally": "Close election and tally",
       "addByEmail": {
-        "addParticipant": "Ajouter un participant",
+        "addParticipant": "Add someone",
         "modal.title": "Invite someone by email",
         "modal.email": "Email",
-        "modal.back": "Retour",
-        "modal.sendInvite": "Envoyer une invitation par email"
+        "modal.back": "Back",
+        "modal.sendInvite": "Send invite by email"
       }
     },
 
     "settings": {
       "language": "Language",
-      "internals": "Internals",
+      "internals": "Advanced settings",
       "identities": "Identities",
-      "trustees": "Trustees",
+      "trustees": "Guardians",
       "contacts": "Contacts",
       "transactions": "Transactions"
     },
 
     "trustees": {
-      "title": "Trustees",
+      "title": "Guardians",
       "clear": "Clear"
     },
 
@@ -86,13 +88,13 @@
     },
 
     "identity.home": {
-      "title": "Identités",
+      "title": "Identities",
       "generate": "Generate identity",
       "import": "Import identity",
       "clear": "Clear identitites",
       "modal": {
         "privateKey": "Private key",
-        "add": "Ajouter"
+        "add": "Add"
       }
     },
 
