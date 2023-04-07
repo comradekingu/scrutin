@@ -1,1 +1,98 @@
-{}
+{
+    "translation": {
+        "ballot.show": {
+            "title": "Stemmeseddel",
+            "eventHash": "Begivenhetssjekksum",
+            "voter": "Stemmegiver",
+            "previousId": "Forrige ID",
+            "ciphertext": "Kryptert tekst",
+            "election": "Avstemming"
+        },
+        "election.home.create": "Opprett ny avstemming",
+        "election.show": {
+            "choices": "Alternativer",
+            "hideAdvanced": "Vis mindre",
+            "statusInProgress": "Underveis",
+            "statusFinished": "Fullført",
+            "showAdvanced": "Vis mer",
+            "id": "Avstemmings-ID",
+            "ownerPublicKey": "Eier av offentlig nøkkel",
+            "params": "Parametre",
+            "addByEmail": {
+                "addParticipant": "Legg til noen",
+                "modal.back": "Tilbake",
+                "modal.title": "Inviter noen per e-post",
+                "modal.email": "E-post",
+                "modal.sendInvite": "Send invitasjon per e-post"
+            },
+            "showBallots": "Vis stemmesedler",
+            "hideBallots": "Skjul stemmesedler",
+            "closeAndTally": "Lukk avstemming og tell opp",
+            "trustees": "Valgansatte",
+            "ballotEvents": "Stemmeseddelbegivenheter",
+            "result": "Resultat",
+            "admin": "Du er administrator",
+            "notAdmin": "Du er ikke administrator",
+            "status": "Status"
+        },
+        "ballot.new": {
+            "choices": "Alternativer",
+            "vote": "Stemmegiver",
+            "noVotingRight": "Du har ikke stemmerett"
+        },
+        "app.title": "Scrutin: Sikker, verifiserbare avstemminger",
+        "contact.item.phoneNumber": "Telefonnummer",
+        "contact.delete": "Slett",
+        "election.new": {
+            "noPublicKey": "Fant ingen offentlig nøkkel",
+            "name": "Avstemmingsnavn",
+            "description": "Beskrivelse",
+            "owner": "Eier",
+            "create": "Opprett",
+            "choiceList": {
+                "choices": "Alternativer",
+                "add": "Legg til",
+                "error.atLeastTwoChoices": "Du trenger minst to alternativer",
+                "modal.choiceName": "Alternativsnavn",
+                "modal.back": "Tilbake",
+                "modal.add": "Legg til"
+            }
+        },
+        "settings": {
+            "language": "Språk",
+            "internals": "Avanserte innstillinger",
+            "identities": "Identiteter",
+            "contacts": "Kontakter",
+            "trustees": "Valgansatte",
+            "transactions": "Overføringer"
+        },
+        "trustees": {
+            "clear": "Tøm",
+            "title": "Valgansatte"
+        },
+        "transactions": {
+            "clear": "Tøm",
+            "title": "Overføringer"
+        },
+        "identity.home": {
+            "generate": "Generer identitet",
+            "import": "Importer identitet",
+            "modal": {
+                "privateKey": "Privat nøkkel",
+                "add": "Legg til"
+            },
+            "title": "Identiteter",
+            "clear": "Tøm identiteter"
+        },
+        "identity.show": {
+            "title": "Identitet",
+            "publicKey": "Offentlig nøkkel",
+            "secretKey": "Hemmelig nøkkel",
+            "elections": "Avstemminger",
+            "ballots": "Stemmesedler"
+        },
+        "contact.title": "Kontakt",
+        "contact.clearAll": "Tøm kontakter",
+        "contact.item.email": "E-post"
+    }
+}
