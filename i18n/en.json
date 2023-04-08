@@ -74,7 +74,7 @@
       "identities": "Identities",
       "trustees": "Guardians",
       "contacts": "Contacts",
-      "transactions": "Transactions"
+      "events":   "Events"
     },
 
     "trustees": {
