@@ -13,7 +13,7 @@
 
     "ballot.new": {
       "choices": "Choices",
-      "vote": "Voter",
+      "vote": "Vote",
       "noVotingRight": "You don't have voting right"
     },
 
