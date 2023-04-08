@@ -70,13 +70,11 @@
             "internals": "Paramètres avancés",
             "identities": "Identitées",
             "trustees": "Guardiens",
-            "contacts": "Contacts"
+            "contacts": "Contacts",
+            "events": "Événements"
         },
         "trustees": {
             "title": "Guardiens",
-            "clear": "Effacer tout"
-        },
-        "transactions": {
             "clear": "Effacer tout"
         },
         "identity.home": {
@@ -95,6 +93,10 @@
             "secretKey": "Clefs secrètes",
             "elections": "Élections",
             "ballots": "Bulletins de vote"
+        },
+        "events": {
+            "title": "Événements",
+            "clear": "Effacer tout"
         }
     }
 }
