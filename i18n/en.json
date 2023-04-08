@@ -1,98 +1,98 @@
 {
-  "translation": {
-      "app.title": "Scrutin: Secure, verifiable elections",
-      "ballot.show": {
-          "title": "Ballot",
-          "election": "Election",
-          "eventHash": "Event Hash",
-          "previousId": "Previous Id",
-          "voter": "Voter",
-          "ciphertext": "Ciphertext"
-      },
-      "ballot.new": {
-          "choices": "Choices",
-          "vote": "Voter",
-          "noVotingRight": "You don't have voting right"
-      },
-      "contact.title": "Contact",
-      "contact.item.email": "Email",
-      "contact.item.phoneNumber": "Phone number",
-      "contact.delete": "Delete",
-      "contact.clearAll": "Clear contacts",
-      "election.home.create": "Create a new election",
-      "election.new": {
-          "noPublicKey": "No public key found",
-          "name": "Election name",
-          "description": "Description",
-          "owner": "Owner",
-          "create": "Create",
-          "choiceList": {
-              "choices": "Choices",
-              "add": "Add",
-              "error.atLeastTwoChoices": "You need at least 2 choices",
-              "modal.choiceName": "Choice name",
-              "modal.back": "Back",
-              "modal.add": "Add"
-          }
-      },
-      "election.show": {
-          "choices": "Choices",
-          "status": "Status",
-          "statusInProgress": "In progress",
-          "statusFinished": "Finished",
-          "showAdvanced": "Show more",
-          "hideAdvanced": "Show less",
-          "id": "Election id",
-          "ownerPublicKey": "Owner's Public Key",
-          "params": "Params",
-          "trustees": "Guardians",
-          "ballotEvents": "Ballot events",
-          "showBallots": "Show ballots",
-          "hideBallots": "Hide ballots",
-          "result": "Result",
-          "admin": "You are admin",
-          "notAdmin": "You are not admin",
-          "closeAndTally": "Close election and tally",
-          "addByEmail": {
-              "addParticipant": "Add someone",
-              "modal.title": "Invite someone by email",
-              "modal.email": "Email",
-              "modal.back": "Back",
-              "modal.sendInvite": "Send invite by email"
-          }
-      },
-      "settings": {
-          "language": "Language",
-          "internals": "Advanced settings",
-          "identities": "Identities",
-          "trustees": "Guardians",
-          "contacts": "Contacts",
-          "events": "Events"
-      },
-      "trustees": {
-          "title": "Guardians",
-          "clear": "Clear"
-      },
-      "events": {
-          "title": "Events",
-          "clear": "Clear"
-      },
-      "identity.home": {
-          "title": "Identities",
-          "generate": "Generate identity",
-          "import": "Import identity",
-          "clear": "Clear identitites",
-          "modal": {
-              "privateKey": "Private key",
-              "add": "Add"
-          }
-      },
-      "identity.show": {
-          "title": "Identity",
-          "publicKey": "Public key",
-          "secretKey": "Secret key",
-          "elections": "Elections",
-          "ballots": "Ballots"
-      }
-  }
+    "translation": {
+        "app.title": "Scrutin: Secure, verifiable elections",
+        "ballot.show": {
+            "title": "Ballot",
+            "election": "Election",
+            "eventHash": "Event Hash",
+            "previousId": "Previous Id",
+            "voter": "Voter",
+            "ciphertext": "Ciphertext"
+        },
+        "ballot.new": {
+            "choices": "Choices",
+            "vote": "Voter",
+            "noVotingRight": "You don't have voting right"
+        },
+        "contact.title": "Contact",
+        "contact.item.email": "Email",
+        "contact.item.phoneNumber": "Phone number",
+        "contact.delete": "Delete",
+        "contact.clearAll": "Clear contacts",
+        "election.home.create": "Create a new election",
+        "election.new": {
+            "noPublicKey": "No public key found",
+            "name": "Election name",
+            "description": "Description",
+            "owner": "Owner",
+            "create": "Create",
+            "choiceList": {
+                "choices": "Choices",
+                "add": "Add",
+                "error.atLeastTwoChoices": "You need at least 2 choices",
+                "modal.choiceName": "Choice name",
+                "modal.back": "Back",
+                "modal.add": "Add"
+            }
+        },
+        "election.show": {
+            "choices": "Choices",
+            "status": "Status",
+            "statusInProgress": "In progress",
+            "statusFinished": "Finished",
+            "showAdvanced": "Show more",
+            "hideAdvanced": "Show less",
+            "id": "Election id",
+            "ownerPublicKey": "Owner's Public Key",
+            "params": "Params",
+            "trustees": "Guardians",
+            "ballotEvents": "Ballot events",
+            "showBallots": "Show ballots",
+            "hideBallots": "Hide ballots",
+            "result": "Result",
+            "admin": "You are admin",
+            "notAdmin": "You are not admin",
+            "closeAndTally": "Close election and tally",
+            "addByEmail": {
+                "addParticipant": "Add someone",
+                "modal.title": "Invite someone by email",
+                "modal.email": "Email",
+                "modal.back": "Back",
+                "modal.sendInvite": "Send invite by email"
+            }
+        },
+        "settings": {
+            "language": "Language",
+            "internals": "Advanced settings",
+            "identities": "Identities",
+            "trustees": "Guardians",
+            "contacts": "Contacts",
+            "events": "Events"
+        },
+        "trustees": {
+            "title": "Guardians",
+            "clear": "Clear"
+        },
+        "events": {
+            "title": "Events",
+            "clear": "Clear"
+        },
+        "identity.home": {
+            "title": "Identities",
+            "generate": "Generate identity",
+            "import": "Import identity",
+            "clear": "Clear identitites",
+            "modal": {
+                "privateKey": "Private key",
+                "add": "Add"
+            }
+        },
+        "identity.show": {
+            "title": "Identity",
+            "publicKey": "Public key",
+            "secretKey": "Secret key",
+            "elections": "Elections",
+            "ballots": "Ballots"
+        }
+    }
 }
