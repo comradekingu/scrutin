@@ -84,7 +84,8 @@
 
     "events": {
       "title": "Events",
-      "clear": "Clear"
+      "clear": "Clear",
+      "item.type": "Type"
     },
 
     "identity.home": {
