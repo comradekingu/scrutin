@@ -63,15 +63,13 @@
             "internals": "Avanserte innstillinger",
             "identities": "Identiteter",
             "contacts": "Kontakter",
-            "trustees": "Valgansatte",
-            "transactions": "Overføringer"
+            "trustees": "Valgansatte"
         },
         "trustees": {
             "clear": "Tøm",
             "title": "Valgansatte"
         },
         "transactions": {
-            "clear": "Tøm",
             "title": "Overføringer"
         },
         "identity.home": {

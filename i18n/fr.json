@@ -70,15 +70,13 @@
             "internals": "Paramètres avancés",
             "identities": "Identitées",
             "trustees": "Guardiens",
-            "contacts": "Contacts",
-            "transactions": "Transactions"
+            "contacts": "Contacts"
         },
         "trustees": {
             "title": "Guardiens",
             "clear": "Effacer tout"
         },
         "transactions": {
-            "title": "Événement",
             "clear": "Effacer tout"
         },
         "identity.home": {
