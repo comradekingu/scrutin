@@ -69,9 +69,6 @@
             "clear": "Tøm",
             "title": "Valgansatte"
         },
-        "transactions": {
-            "title": "Overføringer"
-        },
         "identity.home": {
             "generate": "Generer identitet",
             "import": "Importer identitet",
