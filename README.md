@@ -17,7 +17,7 @@ sequenceDiagram
 ##### Belenios integration
 
 - [x] Generate trustee keys on device
-- [x] Encrypt Ballot on device
+- [x] Encrypt ballot on device
 - [x] Tally election on device
 - [ ] Verify result on device
 
@@ -33,7 +33,13 @@ sequenceDiagram
 ##### UI/UX
 
 - [ ] Resuts as a pie chart
-- [ ] Inspect deroulement of an elections (how many empty/filled ballots)
+- [ ] Inspect the progress of an elections (how many empty/filled ballots)
+
+##### Translations
+on [Hosted Weblate](https://hosted.weblate.org/engage/scrutin/) \
+<a href="https://hosted.weblate.org/engage/scrutin/">
+<img src="https://hosted.weblate.org/widgets/scrutin/-/app/multi-auto.svg" alt="Translation status" />
+</a>
 
 ##### Nice to have
 
@@ -43,9 +49,9 @@ sequenceDiagram
 ## Developer instructions
 
 ```
-# Install dependencies (You need nodejs 14, use nvm if you need)
+# Install dependencies (You need Node.js 14, use NVM if you need)
 npm install
-npm run re:start # or use the vscode plugin
+npm run re:start # or use the VSCode plugin
 npm run web
 ```
 
@@ -63,5 +69,5 @@ main | models
 <!--
 ## Release
 [Web demo](https://demo.scrutin.app)
-[Android apk](https://expo.dev/accounts/mlalisse/projects/scrutin/builds/e6bd66f5-ce96-4dac-b874-ab2c0a1f3b1b)
+[Android APK](https://expo.dev/accounts/mlalisse/projects/scrutin/builds/e6bd66f5-ce96-4dac-b874-ab2c0a1f3b1b)
 -->
